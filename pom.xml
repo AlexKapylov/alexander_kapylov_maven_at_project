@@ -19,6 +19,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
+                <configuration>
+                    <encoding>
+                        UTF-8
+                    </encoding>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -26,11 +31,17 @@
                 <version>3.0.0</version>
                 <configuration>
                     <includes>
-                        <include>
+                        <!--<include>
                             TestNGXmlSuiteRunner.class
                         </include>
                         <include>
                             TestNGYamlRunner.class
+                        </include>-->
+                        <include>
+                            CucumberRunner.class
+                        </include>
+                        <include>
+                            JunitRunner.class
                         </include>
                     </includes>
                 </configuration>
@@ -39,6 +50,13 @@
     </build>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.7.1</version>
+            <scope>test</scope>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -88,13 +106,6 @@
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <version>8.0.33</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.7.1</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 

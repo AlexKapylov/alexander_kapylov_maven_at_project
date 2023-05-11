@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XML Test Suite">
+    <test name = "Booking tests">
+        <classes>
+            <class name="homework.at_project.tests.testng.BookingTestNGTests" />
+            <class name="homework.at_project.tests.testng.DemoQATestNGTests" />
+            <class name="homework.at_project.tests.testng.W3SchoolsTestNGTests" />
+        </classes>
+    </test>
+</suite>

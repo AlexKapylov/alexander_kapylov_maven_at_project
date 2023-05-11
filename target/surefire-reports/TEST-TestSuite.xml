@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="237.021" tests="8" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\sasha\AQA Java\GIT_AT_G7\alexander_kapylov_maven_at_project\target\test-classes;D:\sasha\AQA Java\GIT_AT_G7\alexander_kapylov_maven_at_project\target\classes;C:\Users\aleks\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\aleks\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aleks\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aleks\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\aleks\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\aleks\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.3\selenium-java-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.3\selenium-api-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.3\selenium-devtools-v109-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.3\selenium-devtools-v110-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.3\selenium-devtools-v111-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.3\selenium-devtools-v85-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.3\selenium-edge-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.3\selenium-firefox-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.3\selenium-http-4.8.3.jar;C:\Users\aleks\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.3\selenium-ie-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.3\selenium-remote-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\aleks\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\aleks\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aleks\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\aleks\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\aleks\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\aleks\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\aleks\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\aleks\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.3\selenium-safari-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.3\selenium-support-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.3\selenium-chrome-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\aleks\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\aleks\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\aleks\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\aleks\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\aleks\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\aleks\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\aleks\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\aleks\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\aleks\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.3\selenium-chromium-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.3\selenium-json-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.3\selenium-manager-4.8.3.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-java\7.11.2\cucumber-java-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-core\7.11.2\cucumber-core-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-gherkin\7.11.2\cucumber-gherkin-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.2\cucumber-gherkin-messages-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\datatable\7.11.2\datatable-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-plugin\7.11.2\cucumber-plugin-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\docstring\7.11.2\docstring-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\aleks\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\aleks\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\aleks\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-junit\7.11.2\cucumber-junit-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\aleks\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\aleks\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\aleks\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\aleks\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
+    <property name="sun.java.command" value="C:\Users\aleks\AppData\Local\Temp\surefire17549153625969466438\surefirebooter-20230511220148752_3.jar C:\Users\aleks\AppData\Local\Temp\surefire17549153625969466438 2023-05-11T22-01-48_537-jvmRun1 surefire-20230511220148752_1tmp surefire_0-20230511220148752_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\sasha\AQA Java\GIT_AT_G7\alexander_kapylov_maven_at_project\target\test-classes;D:\sasha\AQA Java\GIT_AT_G7\alexander_kapylov_maven_at_project\target\classes;C:\Users\aleks\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\aleks\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\aleks\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aleks\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\aleks\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\aleks\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.3\selenium-java-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.3\selenium-api-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.3\selenium-devtools-v109-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.3\selenium-devtools-v110-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.3\selenium-devtools-v111-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.3\selenium-devtools-v85-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.3\selenium-edge-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.3\selenium-firefox-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.3\selenium-http-4.8.3.jar;C:\Users\aleks\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.3\selenium-ie-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.3\selenium-remote-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\aleks\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\aleks\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\aleks\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\aleks\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aleks\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\aleks\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\aleks\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\aleks\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\aleks\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\aleks\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\aleks\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.3\selenium-safari-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.3\selenium-support-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.3\selenium-chrome-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\aleks\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\aleks\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\aleks\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\aleks\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\aleks\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\aleks\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\aleks\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\aleks\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\aleks\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.3\selenium-chromium-driver-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.3\selenium-json-4.8.3.jar;C:\Users\aleks\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.3\selenium-manager-4.8.3.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-java\7.11.2\cucumber-java-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-core\7.11.2\cucumber-core-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-gherkin\7.11.2\cucumber-gherkin-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.2\cucumber-gherkin-messages-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\datatable\7.11.2\datatable-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-plugin\7.11.2\cucumber-plugin-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\docstring\7.11.2\docstring-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\aleks\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\aleks\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\aleks\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\cucumber-junit\7.11.2\cucumber-junit-7.11.2.jar;C:\Users\aleks\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\aleks\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\aleks\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\aleks\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\aleks\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aleks"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\sasha\AQA Java\GIT_AT_G7\alexander_kapylov_maven_at_project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aleks\AppData\Local\Temp\surefire17549153625969466438\surefirebooter-20230511220148752_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="user.name" value="aleks"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aleks\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aleks\AppData\Local\Temp\"/>
+    <property name="java.version" value="14"/>
+    <property name="user.dir" value="D:\sasha\AQA Java\GIT_AT_G7\alexander_kapylov_maven_at_project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Pict\;C:\platform-tools;C:\Program Files\Java\jdk-19;C:\Users\aleks\AppData\Local\Android\Sdk;C:\Users\aleks\AppData\Local\Android\Sdk\tools\bin;C:\Users\aleks\AppData\Local\Android\Sdk\tools;C:\Users\aleks\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.1\bin;D:\sasha\AQA Java\chromedriver;C:\Users\aleks\AppData\Local\Microsoft\WindowsApps;;E:\Fiddler Classic\Fiddler;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="languageTest on languageTest(homework.at_project.tests.junit4.BookingTests)" classname="homework.at_project.tests.junit4.BookingTests" time="6.68">
+    <failure message="There is an incorrect tooltip expected:&lt;[Р’С‹Р±РµСЂРёС‚Рµ СЏР·С‹Рє]&gt; but was:&lt;[Выберите язык]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: There is an incorrect tooltip expected:<[Р’С‹Р±РµСЂРёС‚Рµ СЏР·С‹Рє]> but was:<[Выберите язык]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at homework.at_project.tests.junit4.BookingTests.languageTest(BookingTests.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:180)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Usage: <main class> [options] The XML suite files to run
+  Options:
+    -alwaysrunlisteners
+      Should MethodInvocation Listeners be run even for skipped methods
+      Default: true
+    -configfailurepolicy
+      Configuration failure policy (skip or continue)
+    -d
+      Output directory
+    -dataproviderthreadcount
+      Number of threads to use when running data providers
+    -dependencyinjectorfactory
+      The dependency injector factory implementation that TestNG should use.
+    -excludegroups
+      Comma-separated list of group names to  exclude
+    -failwheneverythingskipped
+      Should TestNG fail execution if all tests were skipped and nothing was 
+      run. 
+      Default: false
+    -groups
+      Comma-separated list of group names to be run
+    -includeAllDataDrivenTestsWhenSkipping
+      Should TestNG report all iterations of a data driven test as individual 
+      skips, in-case of upstream failures.
+      Default: false
+    -junit
+      JUnit mode
+      Default: false
+    -listener
+      List of .class files or list of class names implementing ITestListener 
+      or ISuiteListener
+    -methods
+      Comma separated of test methods
+      Default: []
+    -methodselectors
+      List of .class files or list of class names implementing IMethodSelector
+    -mixed
+      Mixed mode - autodetect the type of current test and run it with 
+      appropriate runner
+      Default: false
+    -objectfactory
+      List of .class files or list of class names implementing 
+      ITestRunnerFactory 
+    -overrideincludedmethods
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: false
+    -parallel
+      Parallel mode (methods, tests or classes)
+      Possible Values: [tests, methods, classes, instances, none]
+    -port
+      The port
+    -propagateDataProviderFailureAsTestFailure
+      Should TestNG consider failures in Data Providers  as test failures.
+      Default: false
+    -reporter
+      Extended configuration for custom report listener
+    -spilistenerstoskip
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: <empty string>
+    -suitename
+      Default name of test suite, if not specified in suite definition file or 
+      source code
+    -suitethreadpoolsize
+      Size of the thread pool to use to run suites
+      Default: 1
+    -testclass
+      The list of test classes
+    -testjar
+      A jar file containing the tests
+    -testname
+      Default name of test, if not specified in suitedefinition file or source 
+      code 
+    -testnames
+      The list of test names to run
+    -testrunfactory, -testRunFactory
+      The factory used to create tests
+    -threadcount
+      Number of threads to use when running tests in parallel
+    -threadpoolfactoryclass
+      The threadpool executor factory implementation that TestNG should use.
+    -usedefaultlisteners
+      Whether to use the default listeners
+      Default: true
+    -log, -verbose
+      Level of verbosity
+    -xmlpathinjar
+      The full path to the xml file inside the jar file (only valid if 
+      -testjar was specified)
+      Default: testng.xml
+
+
+@w3schools
+Scenario: copy tutorial                                          &amp#27;[90m# src/test/resources/features/at_project.feature:4&amp#27;[0m
+2023-05-11 22:01:52 INFO  W3SchoolsSteps:26 - The w3schools cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the "w3schools.com"&amp#27;[0m                               &amp#27;[90m# homework.at_project.steps.W3SchoolsSteps.openW3Schools()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI copy "Tutorial" word&amp#27;[0m                                    &amp#27;[90m# homework.at_project.steps.W3SchoolsSteps.copyTutorial()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI open the "google.com"&amp#27;[0m                                    &amp#27;[90m# homework.at_project.steps.W3SchoolsSteps.openGoogle()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI paste "Tutorial" to the search field and click the Enter&amp#27;[0m &amp#27;[90m# homework.at_project.steps.W3SchoolsSteps.pasteTutorial()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI check that all result links contain the word "Tutorial"&amp#27;[0m &amp#27;[90m# homework.at_project.steps.W3SchoolsSteps.checkResults()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Some links don't contain the 'Tutorial' word expected:<9> but was:<8>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at homework.at_project.steps.W3SchoolsSteps.checkResults(W3SchoolsSteps.java:61)
+	at вњЅ.I check that all result links contain the word "Tutorial"(file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:9)
+&amp#27;[0m
+2023-05-11 22:02:06 INFO  W3SchoolsSteps:32 - The w3schools cucumber test is finished
+
+@demoQA
+Scenario: select all                             &amp#27;[90m# src/test/resources/features/at_project.feature:12&amp#27;[0m
+2023-05-11 22:02:08 INFO  DemoQASteps:23 - The demoQA cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open "demoQA.com"&amp#27;[0m                      &amp#27;[90m# homework.at_project.steps.DemoQASteps.openDemoQA()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the Select Value Dropdown&amp#27;[0m      &amp#27;[90m# homework.at_project.steps.DemoQASteps.clickSelectValueDropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select Group1 Option1&amp#27;[0m                    &amp#27;[90m# homework.at_project.steps.DemoQASteps.selectGroup1Option1OfSelectValue()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Select One Dropdown&amp#27;[0m         &amp#27;[90m# homework.at_project.steps.DemoQASteps.clickSelectOneDropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select Dr&amp#27;[0m                                &amp#27;[90m# homework.at_project.steps.DemoQASteps.selectDrOfSelectOne()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select Blue Of Old Style Select Menu&amp#27;[0m     &amp#27;[90m# homework.at_project.steps.DemoQASteps.selectBlueOfOldStyleSelectMenu()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Multi Select Dropdown&amp#27;[0m       &amp#27;[90m# homework.at_project.steps.DemoQASteps.clickMultiSelectDropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select Green&amp#27;[0m                             &amp#27;[90m# homework.at_project.steps.DemoQASteps.selectGreenOfMultiSelectDropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select Audi in the Standard Multi Select&amp#27;[0m &amp#27;[90m# homework.at_project.steps.DemoQASteps.selectAudiOfStandardMultiSelect()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI check that all fields are selected&amp#27;[0m      &amp#27;[90m# homework.at_project.steps.DemoQASteps.checkAllFields()&amp#27;[0m
+2023-05-11 22:02:13 INFO  DemoQASteps:29 - The demoQA cucumber test is finished
+
+@booking
+Scenario: checking price per night                      &amp#27;[90m# src/test/resources/features/at_project.feature:25&amp#27;[0m
+2023-05-11 22:02:14 INFO  BookingSteps:33 - The booking cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the "booking.com"&amp#27;[0m                        &amp#27;[90m# homework.at_project.steps.BookingSteps.openBooking()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI skip "Sign In" offer&amp#27;[0m                           &amp#27;[90m# homework.at_project.steps.BookingSteps.skipSignInOffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"РџР°СЂРёР¶"&amp#27;[0m&amp#27;[32m city&amp#27;[0m                         &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingPlace(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set dates from &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                          &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingDates(int,int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Occupancy dropdown&amp#27;[0m                 &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnOccupancyDropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Adults +&amp#27;[0m                           &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheAdults()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Adults +&amp#27;[0m                           &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheAdults()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Apartments +&amp#27;[0m                       &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheApartments()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Submit&amp#27;[0m                             &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the max price per night in the filters&amp#27;[0m &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheMaxPricePerNight()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI wait when spinner disappears&amp#27;[0m                    &amp#27;[90m# homework.at_project.steps.BookingSteps.waitForSpinner()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Sorting dropdown&amp#27;[0m                   &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheSortDropdown()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select the Price Sorting&amp#27;[0m                        &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnThePriceSorting()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI check the price per night&amp#27;[0m                      &amp#27;[90m# homework.at_project.steps.BookingSteps.checkPricePerNight()&amp#27;[0m
+2023-05-11 22:02:49 INFO  BookingSteps:39 - The booking cucumber test is finished
+
+@booking
+Scenario: checking the changing colors                   &amp#27;[90m# src/test/resources/features/at_project.feature:42&amp#27;[0m
+2023-05-11 22:02:51 INFO  BookingSteps:33 - The booking cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the "booking.com"&amp#27;[0m                         &amp#27;[90m# homework.at_project.steps.BookingSteps.openBooking()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI skip "Sign In" offer&amp#27;[0m                            &amp#27;[90m# homework.at_project.steps.BookingSteps.skipSignInOffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"РџР°СЂРёР¶"&amp#27;[0m&amp#27;[32m city&amp#27;[0m                          &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingPlace(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set dates from &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                           &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingDates(int,int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Submit&amp#27;[0m                              &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI scroll to the &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32mth hotel&amp#27;[0m                         &amp#27;[90m# homework.at_project.steps.BookingSteps.scrollToHotel(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI change the &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32mth hotel's background&amp#27;[0m               &amp#27;[90m# homework.at_project.steps.BookingSteps.changeHotelBackground(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI change the &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32mth hotel's title color&amp#27;[0m              &amp#27;[90m# homework.at_project.steps.BookingSteps.changeHotelTextColor(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI check that colors of the &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32mth hotel are changed&amp#27;[0m &amp#27;[90m# homework.at_project.steps.BookingSteps.checkColorChanging(int)&amp#27;[0m
+2023-05-11 22:03:01 INFO  BookingSteps:39 - The booking cucumber test is finished
+
+@booking
+Scenario: checking hotel availability        &amp#27;[90m# src/test/resources/features/at_project.feature:54&amp#27;[0m
+2023-05-11 22:03:02 INFO  BookingSteps:33 - The booking cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the "booking.com"&amp#27;[0m             &amp#27;[90m# homework.at_project.steps.BookingSteps.openBooking()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI skip "Sign In" offer&amp#27;[0m                &amp#27;[90m# homework.at_project.steps.BookingSteps.skipSignInOffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"РџР°СЂРёР¶"&amp#27;[0m&amp#27;[32m city&amp#27;[0m              &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingPlace(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set dates from &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m               &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingDates(int,int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Submit&amp#27;[0m                  &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheSubmit()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI check appearance at least one hotel&amp#27;[0m &amp#27;[90m# homework.at_project.steps.BookingSteps.checkHotels()&amp#27;[0m
+2023-05-11 22:03:13 INFO  BookingSteps:39 - The booking cucumber test is finished
+
+@booking
+Scenario: checking the hotel rating            &amp#27;[90m# src/test/resources/features/at_project.feature:63&amp#27;[0m
+2023-05-11 22:03:15 INFO  BookingSteps:33 - The booking cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the "booking.com"&amp#27;[0m               &amp#27;[90m# homework.at_project.steps.BookingSteps.openBooking()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI skip "Sign In" offer&amp#27;[0m                  &amp#27;[90m# homework.at_project.steps.BookingSteps.skipSignInOffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"РџР°СЂРёР¶"&amp#27;[0m&amp#27;[32m city&amp#27;[0m                &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingPlace(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set dates from &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m to &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                 &amp#27;[90m# homework.at_project.steps.BookingSteps.selectingDates(int,int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Submit&amp#27;[0m                    &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheSubmit()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the max rating in the filters&amp#27;[0m &amp#27;[90m# homework.at_project.steps.BookingSteps.clickOnTheMaxRating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI wait when spinner disappears&amp#27;[0m           &amp#27;[90m# homework.at_project.steps.BookingSteps.waitForSpinner()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI open the first hotel&amp#27;[0m                   &amp#27;[90m# homework.at_project.steps.BookingSteps.openFirstHotelUrl()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI check the hotel rating&amp#27;[0m                &amp#27;[90m# homework.at_project.steps.BookingSteps.checkHotelRating()&amp#27;[0m
+2023-05-11 22:03:44 INFO  BookingSteps:39 - The booking cucumber test is finished
+
+@booking
+Scenario: checking the currency tooltip value &amp#27;[90m# src/test/resources/features/at_project.feature:75&amp#27;[0m
+2023-05-11 22:03:46 INFO  BookingSteps:33 - The booking cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the "booking.com"&amp#27;[0m              &amp#27;[90m# homework.at_project.steps.BookingSteps.openBooking()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI skip "Sign In" offer&amp#27;[0m                 &amp#27;[90m# homework.at_project.steps.BookingSteps.skipSignInOffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI hover on the currency&amp#27;[0m                 &amp#27;[90m# homework.at_project.steps.BookingSteps.hoverOnTheCurrency()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI check the currency tooltip value&amp#27;[0m     &amp#27;[90m# homework.at_project.steps.BookingSteps.checkTheCurrencyValue()&amp#27;[0m
+      &amp#27;[31morg.junit.ComparisonFailure: There is an incorrect tooltip expected:<[Р вЂ™РЎвЂ№Р В±Р ВµРЎР‚Р С‘РЎвЂљР Вµ Р Р†Р В°Р В»РЎР‹РЎвЂљРЎС“]> but was:<[Р’С‹Р±РµСЂРёС‚Рµ РІР°Р»СЋС‚Сѓ]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at homework.at_project.steps.BookingSteps.checkTheCurrencyValue(BookingSteps.java:180)
+	at вњЅ.I check the currency tooltip value(file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:79)
+&amp#27;[0m
+2023-05-11 22:03:52 INFO  BookingSteps:39 - The booking cucumber test is finished
+
+@booking
+Scenario: checking the language tooltip value &amp#27;[90m# src/test/resources/features/at_project.feature:82&amp#27;[0m
+2023-05-11 22:03:53 INFO  BookingSteps:33 - The booking cucumber test is started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the "booking.com"&amp#27;[0m              &amp#27;[90m# homework.at_project.steps.BookingSteps.openBooking()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI skip "Sign In" offer&amp#27;[0m                 &amp#27;[90m# homework.at_project.steps.BookingSteps.skipSignInOffer()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role='dialog'][@aria-modal='true']//button"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9af68c46a64f937dc72dbd256ec59706, findElement {using=xpath, value=//div[@role='dialog'][@aria-modal='true']//button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57640/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9af68c46a64f937dc72dbd256ec59706
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at homework.at_project.pages.booking_pages.HomePage.skipSignInOffer(HomePage.java:26)
+	at homework.at_project.steps.BookingSteps.skipSignInOffer(BookingSteps.java:50)
+	at вњЅ.I skip "Sign In" offer(file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:84)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI hover on the language&amp#27;[0m                 &amp#27;[90m# homework.at_project.steps.BookingSteps.hoverOnTheLanguage()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI check the language tooltip value&amp#27;[0m     &amp#27;[90m# homework.at_project.steps.BookingSteps.checkTheLanguageValue()&amp#27;[0m
+2023-05-11 22:04:07 INFO  BookingSteps:39 - The booking cucumber test is finished
+
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:4 # copy tutorial
+file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:75 # checking the currency tooltip value
+file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:82 # checking the language tooltip value
+
+8 Scenarios (&amp#27;[31m3 failed&amp#27;[0m, &amp#27;[32m5 passed&amp#27;[0m)
+61 Steps (&amp#27;[31m3 failed&amp#27;[0m, &amp#27;[36m2 skipped&amp#27;[0m, &amp#27;[32m56 passed&amp#27;[0m)
+2m17,396s
+
+
+java.lang.AssertionError: Some links don't contain the 'Tutorial' word expected:<9> but was:<8>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at homework.at_project.steps.W3SchoolsSteps.checkResults(W3SchoolsSteps.java:61)
+	at ?.I check that all result links contain the word "Tutorial"(file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:9)
+
+org.junit.ComparisonFailure: There is an incorrect tooltip expected:<[Р’С‹Р±РµСЂРёС‚Рµ РІР°Р»СЋС‚Сѓ]> but was:<[Выберите валюту]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at homework.at_project.steps.BookingSteps.checkTheCurrencyValue(BookingSteps.java:180)
+	at ?.I check the currency tooltip value(file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:79)
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@role='dialog'][@aria-modal='true']//button"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9af68c46a64f937dc72dbd256ec59706, findElement {using=xpath, value=//div[@role='dialog'][@aria-modal='true']//button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57640/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9af68c46a64f937dc72dbd256ec59706
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at homework.at_project.pages.booking_pages.HomePage.skipSignInOffer(HomePage.java:26)
+	at homework.at_project.steps.BookingSteps.skipSignInOffer(BookingSteps.java:50)
+	at ?.I skip "Sign In" offer(file:///D:/sasha/AQA%20Java/GIT_AT_G7/alexander_kapylov_maven_at_project/src/test/resources/features/at_project.feature:84)
+
+
+2023-05-11 22:04:08 INFO  BookingTests:29 - The booking junit test is started
+2023-05-11 22:04:14 INFO  BookingTests:35 - The booking junit test is finished
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 24208
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:01:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+мая 11, 2023 10:02:05 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 30507
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:02:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 10371
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:02:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 7425
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:02:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 36441
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:03:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 43882
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:03:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 45329
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:03:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 14298
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:03:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://cucumber.io/docs/cucumber/environment-variables/&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 46302
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:04:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="hotelAvailabilityTest on hotelAvailabilityTest(homework.at_project.tests.junit4.BookingTests)" classname="homework.at_project.tests.junit4.BookingTests" time="17.192">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]&quot;}&#10;  (Session info: chrome=112.0.5615.138)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7932baeca4da454703e23120a4d23dc5, findElement {using=xpath, value=//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57783/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7932baeca4da454703e23120a4d23dc5" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7932baeca4da454703e23120a4d23dc5, findElement {using=xpath, value=//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57783/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7932baeca4da454703e23120a4d23dc5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at homework.at_project.pages.booking_pages.HomePage.selectingPlace(HomePage.java:33)
+	at homework.at_project.tests.junit4.BookingTests.hotelAvailabilityTest(BookingTests.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:180)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2023-05-11 22:04:15 INFO  BookingTests:29 - The booking junit test is started
+2023-05-11 22:04:31 INFO  BookingTests:35 - The booking junit test is finished
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 6889
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:04:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="pricePerNightTest on pricePerNightTest(homework.at_project.tests.junit4.BookingTests)" classname="homework.at_project.tests.junit4.BookingTests" time="16.974">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]&quot;}&#10;  (Session info: chrome=112.0.5615.138)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [73f514beffc9be053c7b34a4b6997106, findElement {using=xpath, value=//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57857}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57857/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 73f514beffc9be053c7b34a4b6997106" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73f514beffc9be053c7b34a4b6997106, findElement {using=xpath, value=//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57857}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57857/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 73f514beffc9be053c7b34a4b6997106
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at homework.at_project.pages.booking_pages.HomePage.selectingPlace(HomePage.java:33)
+	at homework.at_project.tests.junit4.BookingTests.pricePerNightTest(BookingTests.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:180)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2023-05-11 22:04:32 INFO  BookingTests:29 - The booking junit test is started
+2023-05-11 22:04:48 INFO  BookingTests:35 - The booking junit test is finished
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 18740
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:04:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="currencyTest on currencyTest(homework.at_project.tests.junit4.BookingTests)" classname="homework.at_project.tests.junit4.BookingTests" time="7.575">
+    <failure message="There is an incorrect tooltip expected:&lt;[Р’С‹Р±РµСЂРёС‚Рµ РІР°Р»СЋС‚Сѓ]&gt; but was:&lt;[Выберите валюту]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: There is an incorrect tooltip expected:<[Р’С‹Р±РµСЂРёС‚Рµ РІР°Р»СЋС‚Сѓ]> but was:<[Выберите валюту]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at homework.at_project.tests.junit4.BookingTests.currencyTest(BookingTests.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:180)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2023-05-11 22:04:50 INFO  BookingTests:29 - The booking junit test is started
+2023-05-11 22:04:55 INFO  BookingTests:35 - The booking junit test is finished
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 3026
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:04:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="colorsTest on colorsTest(homework.at_project.tests.junit4.BookingTests)" classname="homework.at_project.tests.junit4.BookingTests" time="16.834">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]&quot;}&#10;  (Session info: chrome=112.0.5615.138)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [bc60c02a490051d5aca13dd67d3ef7f6, findElement {using=xpath, value=//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57999/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bc60c02a490051d5aca13dd67d3ef7f6" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc60c02a490051d5aca13dd67d3ef7f6, findElement {using=xpath, value=//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57999/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc60c02a490051d5aca13dd67d3ef7f6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at homework.at_project.pages.booking_pages.HomePage.selectingPlace(HomePage.java:33)
+	at homework.at_project.tests.junit4.BookingTests.colorsTest(BookingTests.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:180)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2023-05-11 22:04:57 INFO  BookingTests:29 - The booking junit test is started
+2023-05-11 22:05:12 INFO  BookingTests:35 - The booking junit test is finished
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 33007
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:04:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="hotelRatingTest on hotelRatingTest(homework.at_project.tests.junit4.BookingTests)" classname="homework.at_project.tests.junit4.BookingTests" time="17.42">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]&quot;}&#10;  (Session info: chrome=112.0.5615.138)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [509b015161164502d91c97a5fbf00a10, findElement {using=xpath, value=//*[@data-testid=&apos;autocomplete-results&apos;]/li[1]/descendant:: div[contains(text(),&apos;РџР°СЂРёР¶&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58069/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 509b015161164502d91c97a5fbf00a10" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [509b015161164502d91c97a5fbf00a10, findElement {using=xpath, value=//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'РџР°СЂРёР¶')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58069/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 509b015161164502d91c97a5fbf00a10
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at homework.at_project.pages.booking_pages.HomePage.selectingPlace(HomePage.java:33)
+	at homework.at_project.tests.junit4.BookingTests.hotelRatingTest(BookingTests.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:180)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2023-05-11 22:05:14 INFO  BookingTests:29 - The booking junit test is started
+2023-05-11 22:05:30 INFO  BookingTests:35 - The booking junit test is finished
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 32130
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:05:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="selectTest on selectTest(homework.at_project.tests.junit4.DemoQATests)" classname="homework.at_project.tests.junit4.DemoQATests" time="5.942">
+    <system-out><![CDATA[2023-05-11 22:05:31 INFO  DemoQATests:21 - The demoQA junit test is started
+2023-05-11 22:05:36 INFO  DemoQATests:27 - The demoQA junit test is finished
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 47039
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:05:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="tutorialTest on tutorialTest(homework.at_project.tests.junit4.W3SchoolsTests)" classname="homework.at_project.tests.junit4.W3SchoolsTests" time="9.547">
+    <failure message="Some links don&apos;t contain the &apos;Tutorial&apos; word expected:&lt;9&gt; but was:&lt;8&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Some links don't contain the 'Tutorial' word expected:<9> but was:<8>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at homework.at_project.tests.junit4.W3SchoolsTests.tutorialTest(W3SchoolsTests.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:76)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:61)
+	at org.testng.TestRunner$1.run(TestRunner.java:691)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:908)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:720)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:180)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2023-05-11 22:05:37 INFO  W3SchoolsTests:27 - The w3schools junit test is started
+2023-05-11 22:05:45 INFO  W3SchoolsTests:33 - The w3schools junit test is finished
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 5934
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 11, 2023 10:05:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+</testsuite>

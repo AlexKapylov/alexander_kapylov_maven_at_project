@@ -12,9 +12,9 @@
       </class> <!-- homework.at_project.tests.testng.W3SchoolsTestNGTests -->
       <class name="homework.at_project.tests.testng.BookingTestNGTests">
         <methods>
-          <include name="currencyTest"/>
           <include name="afterTests"/>
           <include name="languageTest"/>
+          <include name="currencyTest"/>
           <include name="beforeTests"/>
           <include name="hotelAvailabilityTest"/>
           <include name="pricePerNightTest"/>

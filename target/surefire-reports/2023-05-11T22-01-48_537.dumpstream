@@ -1,0 +1,5 @@
+# Created at 2023-05-11T22:01:48.802
+Boot Manifest-JAR contains absolute paths in classpath 'D:\sasha\AQA Java\GIT_AT_G7\alexander_kapylov_maven_at_project\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
