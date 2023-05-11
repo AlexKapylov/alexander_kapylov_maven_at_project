@@ -5,37 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1afaecb-9c0f-40be-9b75-236000909819" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/driver/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/driver/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/driver/DriverManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/driver/DriverManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/driver/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/driver/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.BookingTestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.BookingTestNGTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.DemoQATestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.DemoQATestNGTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.W3SchoolsTestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.W3SchoolsTestNGTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +28,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PYhrceiyOdS8nSggVebq1VDVF1" />
   <component name="ProjectViewState">
@@ -67,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
