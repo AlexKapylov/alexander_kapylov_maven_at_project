@@ -5,14 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1afaecb-9c0f-40be-9b75-236000909819" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lo4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/lo4j.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.BookingTestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.BookingTestNGTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.DemoQATestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.DemoQATestNGTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.W3SchoolsTestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.W3SchoolsTestNGTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +69,46 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestNGXmlSuiteRunner">
+  <component name="RunManager" selected="Application.ClassForRestAssured">
+    <configuration name="ClassForRestAssured" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day21.ClassForRestAssured" />
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day21.MyHttpClient" />
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParserJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day21.ParserJSON" />
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNGXmlSuiteRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.at_project.runners.TestNGXmlSuiteRunner" />
       <module name="UnitTestsDummy" />
@@ -57,60 +118,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: checking the changing colors" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/at_project.feature" />
-      <option name="GLUE" value="homework.at_project.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="UnitTestsDummy" />
-      <option name="NAME_FILTER" value="^checking the changing colors$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^checking the changing colors$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: checking the changing colors" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingTests.colorsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.at_project.tests.junit4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework.at_project.tests.junit4" />
-      <option name="MAIN_CLASS_NAME" value="homework.at_project.tests.junit4.BookingTests" />
-      <option name="METHOD_NAME" value="colorsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingTestNGTests.colorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.at_project.tests.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework.at_project.tests.testng" />
-      <option name="MAIN_CLASS_NAME" value="homework.at_project.tests.testng.BookingTestNGTests" />
-      <option name="METHOD_NAME" value="colorsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassForRestAssured" />
+        <item itemvalue="Application.MyHttpClient" />
+        <item itemvalue="Application.ParserJSON" />
         <item itemvalue="Application.TestNGXmlSuiteRunner" />
         <item itemvalue="TestNG.BookingTestNGTests.pricePerNightTest" />
-        <item itemvalue="JUnit.BookingTests.colorsTest" />
-        <item itemvalue="TestNG.BookingTestNGTests.colorsTest" />
-        <item itemvalue="Cucumber Java.Scenario: checking the changing colors" />
       </list>
     </recent_temporary>
   </component>
