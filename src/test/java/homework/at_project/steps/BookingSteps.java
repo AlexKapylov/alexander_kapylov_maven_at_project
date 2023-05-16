@@ -30,13 +30,13 @@ public class BookingSteps {
     @Before(value = "@booking")
     public void beforeTests() {
         Driver.getWebDriver();
-        LOGGER.info("The booking cucumber test is started");
+        LOGGER.info("The booking cucumber Before method is started");
     }
 
     @After(value = "@booking")
     public void afterTests() {
         Driver.closeDriver();
-        LOGGER.info("The booking cucumber test is finished");
+        LOGGER.info("The booking cucumber After method is finished");
     }
 
     @Given("I open the \"booking.com\"")

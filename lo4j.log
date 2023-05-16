@@ -173,3 +173,272 @@
 12:19:47,916  INFO main BookingTestNGTests:afterTests:34 - The booking testNG test is finished
 12:19:49,771  INFO main BookingTestNGTests:beforeTests:28 - The booking testNG test is started
 12:19:51,244  INFO main BookingTestNGTests:afterTests:34 - The booking testNG test is finished
+19:52:29,356 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:52:29,560 DEBUG main InternalLoggerFactory:useLog4JLoggerFactory:89 - Using Log4J as the default logging framework
+19:52:29,568 DEBUG main ResourceLeakDetector:<clinit>:129 - -Dio.netty.leakDetection.level: simple
+19:52:29,569 DEBUG main ResourceLeakDetector:<clinit>:130 - -Dio.netty.leakDetection.targetRecords: 4
+19:52:29,576 DEBUG main ResourceLeakDetectorFactory:newResourceLeakDetector:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@53976f5c
+19:52:29,606 DEBUG main PlatformDependent0:explicitNoUnsafeCause0:496 - -Dio.netty.noUnsafe: false
+19:52:29,607 DEBUG main PlatformDependent0:javaVersion0:1000 - Java version: 14
+19:52:29,611 DEBUG main PlatformDependent0:<clinit>:137 - sun.misc.Unsafe.theUnsafe: available
+19:52:29,612 DEBUG main PlatformDependent0:<clinit>:161 - sun.misc.Unsafe.copyMemory: available
+19:52:29,613 DEBUG main PlatformDependent0:<clinit>:193 - sun.misc.Unsafe.storeFence: available
+19:52:29,614 DEBUG main PlatformDependent0:<clinit>:236 - java.nio.Buffer.address: available
+19:52:29,616 DEBUG main PlatformDependent0:<clinit>:317 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:40)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:111)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at homework.at_project.driver.DriverManager.getChromeDriver(DriverManager.java:16)
+	at homework.at_project.driver.DriverManager.getDriver(DriverManager.java:31)
+	at homework.at_project.driver.Driver.getWebDriver(Driver.java:22)
+	at homework.at_project.pages.booking_pages.HomePage.<init>(HomePage.java:16)
+	at homework.at_project.tests.testng.BookingTestNGTests.<init>(BookingTestNGTests.java:16)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:464)
+	at org.testng.TestRunner.init(TestRunner.java:336)
+	at org.testng.TestRunner.init(TestRunner.java:289)
+	at org.testng.TestRunner.<init>(TestRunner.java:179)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:643)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:225)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:115)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1349)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1325)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1167)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.java:19)
+19:52:29,623 DEBUG main PlatformDependent0:<clinit>:385 - java.nio.Bits.unaligned: available, true
+19:52:29,625 DEBUG main PlatformDependent0:<clinit>:449 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @611889f4
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:647)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224)
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32)
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94)
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:116)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:88)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:40)
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:111)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at homework.at_project.driver.DriverManager.getChromeDriver(DriverManager.java:16)
+	at homework.at_project.driver.DriverManager.getDriver(DriverManager.java:31)
+	at homework.at_project.driver.Driver.getWebDriver(Driver.java:22)
+	at homework.at_project.pages.booking_pages.HomePage.<init>(HomePage.java:16)
+	at homework.at_project.tests.testng.BookingTestNGTests.<init>(BookingTestNGTests.java:16)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:464)
+	at org.testng.TestRunner.init(TestRunner.java:336)
+	at org.testng.TestRunner.init(TestRunner.java:289)
+	at org.testng.TestRunner.<init>(TestRunner.java:179)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:643)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:225)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:115)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1349)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1325)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1167)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.java:19)
+19:52:29,630 DEBUG main PlatformDependent0:<clinit>:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+19:52:29,631 DEBUG main PlatformDependent:unsafeUnavailabilityCause0:1159 - sun.misc.Unsafe: available
+19:52:29,654 DEBUG main PlatformDependent:estimateMaxDirectMemory:1270 - maxDirectMemory: 2118123520 bytes (maybe)
+19:52:29,655 DEBUG main PlatformDependent:tmpdir0:1289 - -Dio.netty.tmpdir: C:\Users\aleks\AppData\Local\Temp (java.io.tmpdir)
+19:52:29,656 DEBUG main PlatformDependent:bitMode0:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+19:52:29,657 DEBUG main PlatformDependent:isWindows0:1119 - Platform: Windows
+19:52:29,659 DEBUG main PlatformDependent:<clinit>:178 - -Dio.netty.maxDirectMemory: -1 bytes
+19:52:29,660 DEBUG main PlatformDependent:<clinit>:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+19:52:29,662 DEBUG main CleanerJava9:<clinit>:71 - java.nio.ByteBuffer.cleaner(): available
+19:52:29,663 DEBUG main PlatformDependent:<clinit>:205 - -Dio.netty.noPreferDirect: false
+19:52:29,677 DEBUG main PlatformDependent:<clinit>:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+19:52:29,718 DEBUG main InternalThreadLocalMap:<clinit>:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+19:52:29,718 DEBUG main InternalThreadLocalMap:<clinit>:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+19:52:30,209 DEBUG main JdkSslContext:<clinit>:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+19:52:30,209 DEBUG main JdkSslContext:<clinit>:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+19:52:30,234 DEBUG main GlobalEventExecutor:<clinit>:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+19:52:30,262 DEBUG main MultithreadEventLoopGroup:<clinit>:44 - -Dio.netty.eventLoopThreads: 8
+19:52:30,277 DEBUG main NioEventLoop:<clinit>:110 - -Dio.netty.noKeySetOptimization: false
+19:52:30,277 DEBUG main NioEventLoop:<clinit>:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+19:52:30,298 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@56673b2c
+19:52:30,300 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@62010f5c
+19:52:30,302 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@51fadaff
+19:52:30,304 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@401f7633
+19:52:30,305 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@31ff43be
+19:52:30,307 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5b6ec132
+19:52:30,308 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5c44c582
+19:52:30,311 TRACE main NioEventLoop:openSelector:264 - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67d18ed7
+19:52:30,362 DEBUG main PooledByteBufAllocator:<clinit>:157 - -Dio.netty.allocator.numHeapArenas: 8
+19:52:30,363 DEBUG main PooledByteBufAllocator:<clinit>:158 - -Dio.netty.allocator.numDirectArenas: 8
+19:52:30,364 DEBUG main PooledByteBufAllocator:<clinit>:160 - -Dio.netty.allocator.pageSize: 8192
+19:52:30,365 DEBUG main PooledByteBufAllocator:<clinit>:165 - -Dio.netty.allocator.maxOrder: 9
+19:52:30,365 DEBUG main PooledByteBufAllocator:<clinit>:169 - -Dio.netty.allocator.chunkSize: 4194304
+19:52:30,365 DEBUG main PooledByteBufAllocator:<clinit>:170 - -Dio.netty.allocator.smallCacheSize: 256
+19:52:30,366 DEBUG main PooledByteBufAllocator:<clinit>:171 - -Dio.netty.allocator.normalCacheSize: 64
+19:52:30,366 DEBUG main PooledByteBufAllocator:<clinit>:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+19:52:30,366 DEBUG main PooledByteBufAllocator:<clinit>:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+19:52:30,366 DEBUG main PooledByteBufAllocator:<clinit>:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+19:52:30,367 DEBUG main PooledByteBufAllocator:<clinit>:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+19:52:30,367 DEBUG main PooledByteBufAllocator:<clinit>:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+19:52:30,384 DEBUG main ByteBufUtil:<clinit>:88 - -Dio.netty.allocator.type: pooled
+19:52:30,385 DEBUG main ByteBufUtil:<clinit>:97 - -Dio.netty.threadLocalDirectBufferSize: 0
+19:52:30,385 DEBUG main ByteBufUtil:<clinit>:100 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+19:52:32,387 DEBUG Forwarding newSession on session null to remote DefaultChannelId:<clinit>:79 - -Dio.netty.processId: 7392 (auto-detected)
+19:52:32,390 DEBUG Forwarding newSession on session null to remote NetUtil:<clinit>:142 - -Djava.net.preferIPv4Stack: false
+19:52:32,390 DEBUG Forwarding newSession on session null to remote NetUtil:<clinit>:143 - -Djava.net.preferIPv6Addresses: false
+19:52:32,401 DEBUG Forwarding newSession on session null to remote NetUtilInitializations:determineLoopback:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+19:52:32,402 DEBUG Forwarding newSession on session null to remote NetUtil:run:200 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+19:52:32,416 DEBUG Forwarding newSession on session null to remote DefaultChannelId:<clinit>:101 - -Dio.netty.machineId: f0:03:8c:ff:fe:98:75:79 (auto-detected)
+19:52:32,493 DEBUG AsyncHttpClient-1-2 AbstractByteBuf:<clinit>:63 - -Dio.netty.buffer.checkAccessible: true
+19:52:32,494 DEBUG AsyncHttpClient-1-2 AbstractByteBuf:<clinit>:64 - -Dio.netty.buffer.checkBounds: true
+19:52:32,495 DEBUG AsyncHttpClient-1-2 ResourceLeakDetectorFactory:newResourceLeakDetector:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2bb23434
+19:52:32,543 DEBUG AsyncHttpClient-1-2 Recycler:<clinit>:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+19:52:32,543 DEBUG AsyncHttpClient-1-2 Recycler:<clinit>:97 - -Dio.netty.recycler.ratio: 8
+19:52:32,543 DEBUG AsyncHttpClient-1-2 Recycler:<clinit>:98 - -Dio.netty.recycler.chunkSize: 32
+19:52:32,543 DEBUG AsyncHttpClient-1-2 Recycler:<clinit>:99 - -Dio.netty.recycler.blocking: false
+19:52:32,544 DEBUG AsyncHttpClient-1-2 Recycler:<clinit>:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+19:52:33,922 DEBUG AsyncHttpClient-1-2 Brotli:<clinit>:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+19:52:34,273 DEBUG main ThreadLocalRandom:newSeed:214 - -Dio.netty.initialSeedUniquifier: 0xb4fd8a3a6bb59ae7
+19:52:34,379 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,394 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,406 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,420 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,504 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,523 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,554 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,564 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,575 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,658 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:34,658  INFO main BookingTestNGTests:beforeTests:28 - The booking testNG Before method is started
+19:52:37,666 TRACE main HomePage:getUrl:22 - Open the https://booking.com
+19:52:38,914 TRACE main HomePage:skipSignInOffer:27 - Skip the SignIn offer popup, locator = '//div[@role='dialog'][@aria-modal='true']//button'
+19:52:39,348 TRACE main HomePage:selectingPlace:32 - Enter the city name, locator = '[name='ss']'
+19:52:40,026 TRACE main HomePage:selectingPlace:34 - Click on the city, locator = '//*[@data-testid='autocomplete-results']/li[1]/descendant:: div[contains(text(),'Париж')]'
+19:52:40,027 TRACE main DateUtil:setDay:18 - Set date: in 3days
+19:52:40,097 TRACE main HomePage:selectingDate:39 - Select date, locator = '[data-date='2023-05-19']'
+19:52:40,098 TRACE main DateUtil:setDay:18 - Set date: in 10days
+19:52:40,211 TRACE main HomePage:selectingDate:39 - Select date, locator = '[data-date='2023-05-26']'
+19:52:45,613 TRACE main HomePage:clickOnTheSubmit:59 - Click on the submit button, locator = '//button[@type='submit']'
+19:52:45,615 TRACE main ResultsPage:findHotel:92 - Find the 10hotel, locator = '//*[@data-testid='property-card'][10]'
+19:52:45,855 TRACE main ActionsUtil:scrollToElement:75 - Scroll to the selected element
+19:52:45,855 TRACE main ResultsPage:findHotel:92 - Find the 10hotel, locator = '//*[@data-testid='property-card'][10]'
+19:52:46,246 TRACE main ActionsUtil:changeElementBackground:81 - Change the background color of the selected element
+19:52:46,247 TRACE main ResultsPage:findHotelTitle:97 - Find the 10hotel title, locator = '//*[@data-testid='property-card'][10]//descendant:: div[@data-testid='title']'
+19:52:46,288 TRACE main ActionsUtil:changeElementTextColor:87 - Change the text color of the selected element
+19:52:46,288 TRACE main ResultsPage:findHotelTitle:97 - Find the 10hotel title, locator = '//*[@data-testid='property-card'][10]//descendant:: div[@data-testid='title']'
+19:52:46,353 DEBUG main BookingTestNGTests:colorsTest:69 - Test 'colorsTest' is executed
+19:52:46,362 TRACE AsyncHttpClient-1-4 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:52:47,370 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:52:47,372  INFO main BookingTestNGTests:afterTests:34 - The booking testNG After method is finished
+19:52:47,375 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:52:48,955 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:48,955  INFO main BookingTestNGTests:beforeTests:28 - The booking testNG Before method is started
+19:52:48,966 TRACE AsyncHttpClient-1-7 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:52:49,844 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:52:49,844  INFO main BookingTestNGTests:afterTests:34 - The booking testNG After method is finished
+19:52:49,847 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:52:51,639 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:51,639  INFO main BookingTestNGTests:beforeTests:28 - The booking testNG Before method is started
+19:52:51,642 TRACE AsyncHttpClient-1-2 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:52:52,400 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:52:52,400  INFO main BookingTestNGTests:afterTests:34 - The booking testNG After method is finished
+19:52:52,401 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:52:53,931 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:53,931  INFO main BookingTestNGTests:beforeTests:28 - The booking testNG Before method is started
+19:52:53,934 TRACE AsyncHttpClient-1-5 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:52:54,749 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:52:54,750  INFO main BookingTestNGTests:afterTests:34 - The booking testNG After method is finished
+19:52:54,751 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:52:56,171 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:56,172  INFO main BookingTestNGTests:beforeTests:28 - The booking testNG Before method is started
+19:52:56,174 TRACE AsyncHttpClient-1-8 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:52:57,020 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:52:57,022  INFO main BookingTestNGTests:afterTests:34 - The booking testNG After method is finished
+19:52:57,023 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:52:58,475 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:52:58,476  INFO main BookingTestNGTests:beforeTests:28 - The booking testNG Before method is started
+19:52:58,479 TRACE AsyncHttpClient-1-3 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:52:59,362 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:52:59,363  INFO main BookingTestNGTests:afterTests:34 - The booking testNG After method is finished
+19:52:59,366 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:53:00,822 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:53:00,822  INFO main DemoQATestNGTests:beforeTests:20 - The demoQA testNG Before method is started
+19:53:00,825 TRACE AsyncHttpClient-1-6 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:53:01,728 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:53:01,730  INFO main DemoQATestNGTests:afterTests:26 - The demoQA testNG After method is finished
+19:53:01,732 TRACE main DriverManager:getChromeDriver:15 - Run ChromeDriver
+19:53:02,555 TRACE main Driver:setTimeOuts:38 - Set timeouts 10, 10, 10
+19:53:02,555  INFO main W3SchoolsTestNGTests:beforeTests:26 - The w3schools testNG Before method is started
+19:53:02,557 TRACE AsyncHttpClient-1-9 WebSocket08FrameEncoder:encode:129 - Encoding WebSocket Frame opCode=8 length=26
+19:53:03,354 TRACE main Driver:closeDriver:31 - Kill ChromeDriver
+19:53:03,355  INFO main W3SchoolsTestNGTests:afterTests:32 - The w3schools testNG After method is finished

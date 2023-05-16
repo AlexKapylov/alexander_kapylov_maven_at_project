@@ -26,13 +26,13 @@ public class BookingTests {
     @Before
     public void beforeTests() {
         Driver.getWebDriver();
-        LOGGER.info("The booking junit test is started");
+        LOGGER.info("The booking junit Before method is started");
     }
 
     @After
     public void afterTests() {
         Driver.closeDriver();
-        LOGGER.info("The booking junit test is finished");
+        LOGGER.info("The booking junit After method is finished");
     }
 
     @Test

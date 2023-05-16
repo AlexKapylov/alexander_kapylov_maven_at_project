@@ -20,13 +20,13 @@ public class DemoQASteps {
     @Before(value = "@demoQA")
     public void beforeTests() {
         Driver.getWebDriver();
-        LOGGER.info("The demoQA cucumber test is started");
+        LOGGER.info("The demoQA cucumber Before method is started");
     }
 
     @After(value = "@demoQA")
     public void afterTests() {
         Driver.closeDriver();
-        LOGGER.info("The demoQA cucumber test is finished");
+        LOGGER.info("The demoQA cucumber After method is finished");
     }
 
     @Given("I open \"demoQA.com\"")
