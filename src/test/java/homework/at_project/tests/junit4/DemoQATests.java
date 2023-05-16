@@ -18,13 +18,13 @@ public class DemoQATests {
     @Before
     public void beforeTests() {
         Driver.getWebDriver();
-        LOGGER.info("The demoQA junit test is started");
+        LOGGER.info("The demoQA junit Before method is started");
     }
 
     @After
     public void afterTests() {
         Driver.closeDriver();
-        LOGGER.info("The demoQA junit test is finished");
+        LOGGER.info("The demoQA junit After method is finished");
     }
 
     @Test

@@ -24,13 +24,13 @@ public class W3SchoolsTests {
     @Before
     public void beforeTests() {
         Driver.getWebDriver();
-        LOGGER.info("The w3schools junit test is started");
+        LOGGER.info("The w3schools junit Before method is started");
     }
 
     @After
     public void afterTests() {
         Driver.closeDriver();
-        LOGGER.info("The w3schools junit test is finished");
+        LOGGER.info("The w3schools junit After method is finished");
     }
 
     @Test

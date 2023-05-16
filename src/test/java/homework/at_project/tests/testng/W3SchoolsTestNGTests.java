@@ -6,8 +6,8 @@ import homework.at_project.pages.www_w3schools_pages.Java;
 import homework.at_project.utils.ActionsUtil;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
@@ -20,16 +20,16 @@ public class W3SchoolsTestNGTests {
     public static final Logger LOGGER = Logger.getLogger(W3SchoolsTestNGTests.class.getName());
 
 
-    @BeforeTest
+    @BeforeMethod
     public void beforeTests() {
         Driver.getWebDriver();
-        LOGGER.info("The w3schools testNG test is started");
+        LOGGER.info("The w3schools testNG Before method is started");
     }
 
-    @AfterTest
+    @AfterMethod
     public void afterTests() {
         Driver.closeDriver();
-        LOGGER.info("The w3schools testNG test is finished");
+        LOGGER.info("The w3schools testNG After method is finished");
     }
 
     @Test
