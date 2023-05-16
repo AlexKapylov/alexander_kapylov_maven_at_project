@@ -22,12 +22,14 @@ public class W3SchoolsSteps {
 
     @Before(value = "@w3schools")
     public void beforeTests() {
-        Driver.getWebDriver();
         LOGGER.info("The w3schools cucumber Before method is started");
+        Driver.getWebDriver();
+        LOGGER.info("The w3schools cucumber Before method is finished");
     }
 
     @After(value = "@w3schools")
     public void afterTests() {
+        LOGGER.info("The w3schools cucumber After method is started");
         Driver.closeDriver();
         LOGGER.info("The w3schools cucumber After method is finished");
     }

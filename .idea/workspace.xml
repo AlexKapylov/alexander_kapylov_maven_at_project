@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1afaecb-9c0f-40be-9b75-236000909819" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/at_project/steps/BookingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/at_project/steps/BookingSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/at_project/steps/DemoQASteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/at_project/steps/DemoQASteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/at_project/steps/W3SchoolsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/at_project/steps/W3SchoolsSteps.java" afterDir="false" />
@@ -16,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/at_project/tests/testng/BookingTestNGTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/at_project/tests/testng/BookingTestNGTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/at_project/tests/testng/DemoQATestNGTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/at_project/tests/testng/DemoQATestNGTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/at_project/tests/testng/W3SchoolsTestNGTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/at_project/tests/testng/W3SchoolsTestNGTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -22,12 +22,14 @@ public class W3SchoolsTestNGTests {
 
     @BeforeMethod
     public void beforeTests() {
-        Driver.getWebDriver();
         LOGGER.info("The w3schools testNG Before method is started");
+        Driver.getWebDriver();
+        LOGGER.info("The w3schools testNG Before method is finished");
     }
 
     @AfterMethod
     public void afterTests() {
+        LOGGER.info("The w3schools testNG After method is started");
         Driver.closeDriver();
         LOGGER.info("The w3schools testNG After method is finished");
     }

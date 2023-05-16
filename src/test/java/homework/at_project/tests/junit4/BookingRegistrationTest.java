@@ -25,13 +25,15 @@ public class BookingRegistrationTest {
 
     @Before
     public void beforeTest() {
+        LOGGER.info("The booking registration junit Before method is started");
         tempmail.getUrl();
         tempmail.getEmail();
-        LOGGER.info("The booking registration junit Before method is started");
+        LOGGER.info("The booking registration junit Before method is finished");
     }
 
     @After
     public void afterTest() {
+        LOGGER.info("The booking registration junit After method is started");
         LOGGER.info("The booking registration junit After method is finished");
     }
 

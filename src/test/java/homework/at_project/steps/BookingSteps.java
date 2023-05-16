@@ -29,12 +29,14 @@ public class BookingSteps {
 
     @Before(value = "@booking")
     public void beforeTests() {
-        Driver.getWebDriver();
         LOGGER.info("The booking cucumber Before method is started");
+        Driver.getWebDriver();
+        LOGGER.info("The booking cucumber Before method is finished");
     }
 
     @After(value = "@booking")
     public void afterTests() {
+        LOGGER.info("The booking cucumber After method is started");
         Driver.closeDriver();
         LOGGER.info("The booking cucumber After method is finished");
     }

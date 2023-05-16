@@ -24,12 +24,14 @@ public class BookingTestNGTests {
 
     @BeforeMethod
     public void beforeTests() {
-        Driver.getWebDriver();
         LOGGER.info("The booking testNG Before method is started");
+        Driver.getWebDriver();
+        LOGGER.info("The booking testNG Before method is finished");
     }
 
     @AfterMethod
     public void afterTests() {
+        LOGGER.info("The booking testNG After method is started");
         Driver.closeDriver();
         LOGGER.info("The booking testNG After method is finished");
     }

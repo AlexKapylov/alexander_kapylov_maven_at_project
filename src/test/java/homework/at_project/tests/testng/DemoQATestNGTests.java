@@ -16,12 +16,14 @@ public class DemoQATestNGTests {
 
     @BeforeMethod
     public void beforeTests() {
-        Driver.getWebDriver();
         LOGGER.info("The demoQA testNG Before method is started");
+        Driver.getWebDriver();
+        LOGGER.info("The demoQA testNG Before method is finished");
     }
 
     @AfterMethod
     public void afterTests() {
+        LOGGER.info("The demoQA testNG After method is started");
         Driver.closeDriver();
         LOGGER.info("The demoQA testNG After method is finished");
     }
