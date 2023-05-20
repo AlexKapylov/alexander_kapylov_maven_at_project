@@ -1482,3 +1482,566 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 19:36:23,026 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
 19:36:23,027 TRACE main SearchTests:sendRequest:25 - Request is sent
 19:36:23,029  INFO main SearchTests:afterSearchTests:26 - The search after method is finished
+13:42:07,842  INFO main SearchTests:thirdTest:27 - Executing third test
+13:42:07,883  INFO main SearchTests:firstTest:15 - Executing first test
+13:42:07,884  INFO main SearchTests:secondTest:21 - Executing second test
+13:42:07,884  INFO main SearchTests:fourthTest:33 - Executing fourth test
+14:08:16,823  INFO main SearchTests:thirdTest:32 - Executing third test
+14:08:16,830  INFO main SearchTests:firstTest:16 - Executing first test
+14:08:16,833  INFO main SearchTests:secondTest:24 - Executing second test
+14:08:16,839  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:09:17,362  INFO main SearchTests:thirdTest:32 - Executing third test
+14:09:17,381  INFO main SearchTests:firstTest:16 - Executing first test
+14:09:17,383  INFO main SearchTests:secondTest:24 - Executing second test
+14:09:17,385  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:13:37,896  INFO main SearchTests:thirdTest:32 - Executing third test
+14:13:37,910  INFO main SearchTests:firstTest:16 - Executing first test
+14:13:37,911  INFO main SearchTests:secondTest:24 - Executing second test
+14:13:37,914  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:16:53,347  INFO main SearchTests:thirdTest:32 - Executing third test
+14:16:53,352  INFO main SearchTests:firstTest:16 - Executing first test
+14:16:53,353  INFO main SearchTests:secondTest:24 - Executing second test
+14:16:53,354  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:34:21,865  INFO main SearchTests:thirdTest:32 - Executing third test
+14:34:21,878  INFO main SearchTests:firstTest:16 - Executing first test
+14:34:21,878  INFO main SearchTests:secondTest:24 - Executing second test
+14:34:21,879  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:34:25,250 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:34:25,269 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:34:25,309 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:34:25,312 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:34:25,312 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:34:25,314 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:34:25,315 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F311265 HTTP/1.1
+14:34:25,316 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F311265 HTTP/1.1[\r][\n]"
+14:34:25,318 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:34:25,319 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:34:25,319 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:34:25,320 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:34:25,322 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:34:25,337 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:34:25,337 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:34:25,338 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:34:25,339 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:34:25,339 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F311265 HTTP/1.1
+14:34:25,340 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:34:25,340 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:34:25,341 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:34:25,341 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:34:25,342 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:34:25,342 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:34:25,343 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:34:25,344 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:34:25,345 DEBUG main wire:wire:87 -  >> "{"status_id":5}"
+14:34:25,568 DEBUG main wire:wire:73 -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+14:34:25,572 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:34:24 GMT[\r][\n]"
+14:34:25,573 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:34:25,573 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:34:25,574 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=c4dd7660-f286-4323-afae-7e0f976768a2; HttpOnly[\r][\n]"
+14:34:25,575 DEBUG main wire:wire:73 -  << "Content-Length: 52[\r][\n]"
+14:34:25,576 DEBUG main wire:wire:73 -  << "Connection: close[\r][\n]"
+14:34:25,576 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:34:25,577 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:34:25,579 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 400 Bad Request
+14:34:25,579 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 400 Bad Request
+14:34:25,580 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:34:24 GMT
+14:34:25,580 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:34:25,581 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:34:25,581 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=c4dd7660-f286-4323-afae-7e0f976768a2; HttpOnly
+14:34:25,582 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 52
+14:34:25,582 DEBUG main headers:receiveResponseHeader:265 - << Connection: close
+14:34:25,582 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:34:25,598 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:34:25,599 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:34:25,654 DEBUG main wire:wire:87 -  << "{"error":"Field :case_id is not a valid test case."}"
+14:34:25,656 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2c6ee758
+14:34:25,658 DEBUG main DefaultClientConnection:shutdown:164 - Connection 0.0.0.0:59215<->178.124.206.46:8000 shut down
+14:40:14,265  INFO main SearchTests:thirdTest:32 - Executing third test
+14:40:14,279  INFO main SearchTests:firstTest:16 - Executing first test
+14:40:14,280  INFO main SearchTests:secondTest:24 - Executing second test
+14:40:14,281  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:40:19,289 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:40:19,309 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:40:19,347 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:40:19,351 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:40:19,351 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:40:19,353 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:40:19,353 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1
+14:40:19,354 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1[\r][\n]"
+14:40:19,357 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:40:19,357 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:40:19,358 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:40:19,358 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:40:19,360 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:40:19,361 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:40:19,362 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:40:19,364 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:40:19,367 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:40:19,375 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1
+14:40:19,379 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:40:19,380 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:40:19,381 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:40:19,382 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:40:19,382 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:40:19,383 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:40:19,384 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:40:19,387 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:40:19,388 DEBUG main wire:wire:87 -  >> "{"status_id":5}"
+14:40:19,656 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:40:19,658 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:40:18 GMT[\r][\n]"
+14:40:19,658 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:40:19,659 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:40:19,659 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=708fd811-cee5-4164-b284-d6ebb3e7c27a; HttpOnly[\r][\n]"
+14:40:19,660 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:40:19,660 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:40:19,661 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:40:19,661 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:40:19,662 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:40:19,663 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:40:19,663 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:40:19,664 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:40:18 GMT
+14:40:19,665 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:40:19,666 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:40:19,667 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=708fd811-cee5-4164-b284-d6ebb3e7c27a; HttpOnly
+14:40:19,668 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:40:19,669 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:40:19,671 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:40:19,672 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:40:19,679 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:40:19,692 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:40:19,692 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:40:19,755 DEBUG main wire:wire:87 -  << "{"id":148991,"test_id":311265,"status_id":5,"created_by":179,"created_on":1684582818,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:40:19,756 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4441d567
+14:40:19,757 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:31,753  INFO main SearchTests:thirdTest:32 - Executing third test
+14:50:35,377 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:50:35,398 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:50:35,457 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:50:35,461 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:50:35,461 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:50:35,463 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:50:35,463 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156382 HTTP/1.1
+14:50:35,464 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156382 HTTP/1.1[\r][\n]"
+14:50:35,469 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:50:35,471 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:50:35,472 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:50:35,474 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:50:35,476 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:50:35,478 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:50:35,478 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:50:35,480 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:50:35,481 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:50:35,481 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156382 HTTP/1.1
+14:50:35,482 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:50:35,482 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:50:35,483 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:50:35,483 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:50:35,484 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:50:35,484 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:50:35,485 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:50:35,485 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:50:35,486 DEBUG main wire:wire:87 -  >> "{"status_id":1}"
+14:50:36,112 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:50:36,113 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:50:34 GMT[\r][\n]"
+14:50:36,114 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:50:36,115 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:50:36,115 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=37a4c616-f18a-47f4-a23b-e06cb6172435; HttpOnly[\r][\n]"
+14:50:36,116 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:50:36,116 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:50:36,117 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:50:36,117 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:50:36,118 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:50:36,119 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:50:36,120 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:50:36,120 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:50:34 GMT
+14:50:36,121 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:50:36,122 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:50:36,122 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=37a4c616-f18a-47f4-a23b-e06cb6172435; HttpOnly
+14:50:36,123 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:50:36,123 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:50:36,124 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:50:36,124 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:50:36,131 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:36,144 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:50:36,145 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:50:36,203 DEBUG main wire:wire:87 -  << "{"id":148997,"test_id":311264,"status_id":1,"created_by":179,"created_on":1684583434,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:50:36,204 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16073fa8
+14:50:36,205 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:36,209  INFO main SearchTests:firstTest:16 - Executing first test
+14:50:36,241 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:50:36,241 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:50:36,247 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:50:36,248 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:50:36,248 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:50:36,249 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:50:36,249 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156378 HTTP/1.1
+14:50:36,249 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156378 HTTP/1.1[\r][\n]"
+14:50:36,250 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:50:36,250 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:50:36,251 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:50:36,251 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:50:36,252 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:50:36,252 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:50:36,253 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:50:36,253 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:50:36,254 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:50:36,254 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156378 HTTP/1.1
+14:50:36,255 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:50:36,256 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:50:36,258 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:50:36,258 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:50:36,258 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:50:36,259 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:50:36,259 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:50:36,260 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:50:36,260 DEBUG main wire:wire:87 -  >> "{"status_id":1}"
+14:50:36,523 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:50:36,524 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:50:35 GMT[\r][\n]"
+14:50:36,526 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:50:36,527 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:50:36,529 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=c9f02286-06cd-40f3-b42f-73a43ccfa288; HttpOnly[\r][\n]"
+14:50:36,530 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:50:36,532 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:50:36,534 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:50:36,536 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:50:36,537 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:50:36,539 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:50:36,540 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:50:36,541 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:50:35 GMT
+14:50:36,542 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:50:36,544 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:50:36,548 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=c9f02286-06cd-40f3-b42f-73a43ccfa288; HttpOnly
+14:50:36,549 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:50:36,549 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:50:36,550 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:50:36,551 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:50:36,552 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:36,553 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:50:36,557 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:50:36,562 DEBUG main wire:wire:87 -  << "{"id":148998,"test_id":311262,"status_id":1,"created_by":179,"created_on":1684583435,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:50:36,566 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@76c52298
+14:50:36,567 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:36,568  INFO main SearchTests:secondTest:24 - Executing second test
+14:50:36,603 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:50:36,603 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:50:36,608 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:50:36,608 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:50:36,609 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:50:36,609 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:50:36,609 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156380 HTTP/1.1
+14:50:36,609 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156380 HTTP/1.1[\r][\n]"
+14:50:36,610 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:50:36,610 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:50:36,610 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:50:36,610 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:50:36,610 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:50:36,611 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:50:36,611 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:50:36,611 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:50:36,611 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:50:36,612 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156380 HTTP/1.1
+14:50:36,612 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:50:36,612 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:50:36,612 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:50:36,613 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:50:36,613 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:50:36,613 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:50:36,613 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:50:36,614 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:50:36,614 DEBUG main wire:wire:87 -  >> "{"status_id":1}"
+14:50:36,876 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:50:36,877 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:50:35 GMT[\r][\n]"
+14:50:36,877 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:50:36,877 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:50:36,877 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=dface39a-3376-4087-8da5-6b975157d0d2; HttpOnly[\r][\n]"
+14:50:36,878 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:50:36,878 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:50:36,878 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:50:36,879 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:50:36,879 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:50:36,879 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:50:36,879 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:50:36,880 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:50:35 GMT
+14:50:36,880 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:50:36,880 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:50:36,880 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=dface39a-3376-4087-8da5-6b975157d0d2; HttpOnly
+14:50:36,881 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:50:36,881 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:50:36,881 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:50:36,881 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:50:36,882 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:36,882 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:50:36,882 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:50:36,884 DEBUG main wire:wire:87 -  << "{"id":148999,"test_id":311263,"status_id":1,"created_by":179,"created_on":1684583436,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:50:36,884 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@20e6c4dc
+14:50:36,884 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:36,885  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:50:36,918 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:50:36,919 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:50:36,924 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:50:36,925 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:50:36,925 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:50:36,926 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:50:36,926 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1
+14:50:36,926 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1[\r][\n]"
+14:50:36,927 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:50:36,927 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:50:36,928 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:50:36,928 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:50:36,929 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:50:36,929 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:50:36,930 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:50:36,930 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:50:36,930 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:50:36,931 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1
+14:50:36,931 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:50:36,932 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:50:36,932 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:50:36,932 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:50:36,933 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:50:36,935 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:50:36,936 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:50:36,937 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:50:36,938 DEBUG main wire:wire:87 -  >> "{"status_id":5}"
+14:50:37,192 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:50:37,193 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:50:36 GMT[\r][\n]"
+14:50:37,194 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:50:37,196 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:50:37,197 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=673478f5-ca4c-4e7b-9575-5e6c24df9521; HttpOnly[\r][\n]"
+14:50:37,198 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:50:37,198 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:50:37,200 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:50:37,202 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:50:37,202 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:50:37,203 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:50:37,204 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:50:37,204 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:50:36 GMT
+14:50:37,206 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:50:37,208 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:50:37,208 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=673478f5-ca4c-4e7b-9575-5e6c24df9521; HttpOnly
+14:50:37,209 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:50:37,209 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:50:37,210 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:50:37,210 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:50:37,211 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:50:37,214 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:50:37,214 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:50:37,216 DEBUG main wire:wire:87 -  << "{"id":149000,"test_id":311265,"status_id":5,"created_by":179,"created_on":1684583436,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:50:37,216 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36f1046f
+14:50:37,217 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:25,260  INFO main SearchTests:thirdTest:32 - Executing third test
+14:52:29,747 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:52:29,763 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:52:29,806 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:52:29,810 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:52:29,811 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:52:29,812 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:52:29,812 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156382 HTTP/1.1
+14:52:29,813 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156382 HTTP/1.1[\r][\n]"
+14:52:29,815 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:52:29,816 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:52:29,817 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:52:29,817 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:52:29,818 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:52:29,819 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:52:29,820 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:52:29,831 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:52:29,839 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:52:29,840 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156382 HTTP/1.1
+14:52:29,841 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:52:29,842 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:52:29,843 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:52:29,846 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:52:29,847 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:52:29,847 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:52:29,848 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:52:29,849 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:52:29,850 DEBUG main wire:wire:87 -  >> "{"status_id":1}"
+14:52:30,102 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:52:30,104 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:52:29 GMT[\r][\n]"
+14:52:30,105 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:52:30,105 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:52:30,106 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=809f735e-3d21-4b49-afbb-8ea00322b943; HttpOnly[\r][\n]"
+14:52:30,107 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:52:30,107 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:52:30,108 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:52:30,108 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:52:30,109 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:52:30,110 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:52:30,111 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:52:30,111 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:52:29 GMT
+14:52:30,112 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:52:30,112 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:52:30,112 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=809f735e-3d21-4b49-afbb-8ea00322b943; HttpOnly
+14:52:30,113 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:52:30,113 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:52:30,114 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:52:30,115 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:52:30,122 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:30,135 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:52:30,136 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:52:30,195 DEBUG main wire:wire:87 -  << "{"id":149019,"test_id":311264,"status_id":1,"created_by":179,"created_on":1684583549,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:52:30,197 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2116b68b
+14:52:30,197 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:30,204  INFO main SearchTests:firstTest:16 - Executing first test
+14:52:30,242 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:52:30,243 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:52:30,251 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:52:30,252 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:52:30,252 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:52:30,254 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:52:30,257 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156378 HTTP/1.1
+14:52:30,258 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156378 HTTP/1.1[\r][\n]"
+14:52:30,258 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:52:30,259 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:52:30,260 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:52:30,260 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:52:30,261 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:52:30,261 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:52:30,262 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:52:30,262 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:52:30,263 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:52:30,263 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156378 HTTP/1.1
+14:52:30,264 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:52:30,264 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:52:30,265 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:52:30,266 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:52:30,269 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:52:30,270 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:52:30,271 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:52:30,271 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:52:30,272 DEBUG main wire:wire:87 -  >> "{"status_id":1}"
+14:52:30,515 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:52:30,515 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:52:29 GMT[\r][\n]"
+14:52:30,516 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:52:30,516 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:52:30,517 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=0f770a6b-14ab-46ef-bb4c-a34b8848f049; HttpOnly[\r][\n]"
+14:52:30,517 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:52:30,518 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:52:30,518 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:52:30,519 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:52:30,520 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:52:30,520 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:52:30,520 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:52:30,521 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:52:29 GMT
+14:52:30,521 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:52:30,521 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:52:30,522 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=0f770a6b-14ab-46ef-bb4c-a34b8848f049; HttpOnly
+14:52:30,522 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:52:30,522 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:52:30,523 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:52:30,523 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:52:30,523 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:30,524 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:52:30,524 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:52:30,526 DEBUG main wire:wire:87 -  << "{"id":149020,"test_id":311262,"status_id":1,"created_by":179,"created_on":1684583549,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:52:30,526 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@49cf9028
+14:52:30,527 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:30,528  INFO main SearchTests:secondTest:24 - Executing second test
+14:52:30,561 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:52:30,562 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:52:30,569 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:52:30,570 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:52:30,570 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:52:30,571 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:52:30,571 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156380 HTTP/1.1
+14:52:30,572 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156380 HTTP/1.1[\r][\n]"
+14:52:30,572 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:52:30,572 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:52:30,573 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:52:30,573 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:52:30,573 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:52:30,574 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:52:30,574 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:52:30,574 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:52:30,575 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:52:30,575 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156380 HTTP/1.1
+14:52:30,575 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:52:30,576 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:52:30,576 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:52:30,577 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:52:30,577 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:52:30,578 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:52:30,578 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:52:30,578 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:52:30,579 DEBUG main wire:wire:87 -  >> "{"status_id":1}"
+14:52:30,830 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:52:30,831 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:52:29 GMT[\r][\n]"
+14:52:30,831 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:52:30,832 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:52:30,834 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=4122501d-5bff-43bb-bf99-a3924d6194b1; HttpOnly[\r][\n]"
+14:52:30,836 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:52:30,837 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:52:30,838 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:52:30,840 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:52:30,842 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:52:30,842 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:52:30,843 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:52:30,843 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:52:29 GMT
+14:52:30,843 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:52:30,844 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:52:30,844 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=4122501d-5bff-43bb-bf99-a3924d6194b1; HttpOnly
+14:52:30,845 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:52:30,845 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:52:30,845 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:52:30,846 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:52:30,846 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:30,847 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:52:30,847 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:52:30,849 DEBUG main wire:wire:87 -  << "{"id":149021,"test_id":311263,"status_id":1,"created_by":179,"created_on":1684583549,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:52:30,849 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5246a3b3
+14:52:30,849 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:30,850  INFO main SearchTests:fourthTest:40 - Executing fourth test
+14:52:30,883 DEBUG main BasicClientConnectionManager:getConnection:161 - Get connection for route {}->http://178.124.206.46:8000
+14:52:30,883 DEBUG main DefaultClientConnectionOperator:openConnection:177 - Connecting to 178.124.206.46:8000
+14:52:30,888 DEBUG main RequestAddCookies:process:123 - CookieSpec selected: ignoreCookies
+14:52:30,889 DEBUG main RequestAuthCache:process:77 - Auth cache not set in the context
+14:52:30,889 DEBUG main RequestProxyAuthentication:process:89 - Proxy auth state: UNCHALLENGED
+14:52:30,889 DEBUG main DefaultHttpClient:tryExecute:677 - Attempt 1 to execute request
+14:52:30,889 DEBUG main DefaultClientConnection:sendRequestHeader:274 - Sending request: POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1
+14:52:30,890 DEBUG main wire:wire:73 -  >> "POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1[\r][\n]"
+14:52:30,890 DEBUG main wire:wire:73 -  >> "Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=[\r][\n]"
+14:52:30,891 DEBUG main wire:wire:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+14:52:30,891 DEBUG main wire:wire:73 -  >> "Content-Type: application/json[\r][\n]"
+14:52:30,892 DEBUG main wire:wire:73 -  >> "Content-Length: 15[\r][\n]"
+14:52:30,892 DEBUG main wire:wire:73 -  >> "Host: 178.124.206.46:8000[\r][\n]"
+14:52:30,892 DEBUG main wire:wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+14:52:30,893 DEBUG main wire:wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/14)[\r][\n]"
+14:52:30,893 DEBUG main wire:wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+14:52:30,893 DEBUG main wire:wire:73 -  >> "[\r][\n]"
+14:52:30,894 DEBUG main headers:sendRequestHeader:278 - >> POST /index.php?%2Fapi%2Fv2%2Fadd_result_for_case%2F2203%2F156383 HTTP/1.1
+14:52:30,894 DEBUG main headers:sendRequestHeader:281 - >> Authorization: Basic ZmFrZW1haWxAdGVjaC5jbzpBYmMxMjM=
+14:52:30,895 DEBUG main headers:sendRequestHeader:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+14:52:30,895 DEBUG main headers:sendRequestHeader:281 - >> Content-Type: application/json
+14:52:30,896 DEBUG main headers:sendRequestHeader:281 - >> Content-Length: 15
+14:52:30,896 DEBUG main headers:sendRequestHeader:281 - >> Host: 178.124.206.46:8000
+14:52:30,896 DEBUG main headers:sendRequestHeader:281 - >> Connection: Keep-Alive
+14:52:30,897 DEBUG main headers:sendRequestHeader:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/14)
+14:52:30,897 DEBUG main headers:sendRequestHeader:281 - >> Accept-Encoding: gzip,deflate
+14:52:30,897 DEBUG main wire:wire:87 -  >> "{"status_id":5}"
+14:52:31,158 DEBUG main wire:wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+14:52:31,158 DEBUG main wire:wire:73 -  << "Date: Sat, 20 May 2023 11:52:30 GMT[\r][\n]"
+14:52:31,158 DEBUG main wire:wire:73 -  << "Server: Apache/2.4.38 (Debian)[\r][\n]"
+14:52:31,159 DEBUG main wire:wire:73 -  << "X-Powered-By: PHP/7.2.25[\r][\n]"
+14:52:31,159 DEBUG main wire:wire:73 -  << "Set-Cookie: tr_session=f0bb475a-5433-42ef-ba2d-9e414ba56ddb; HttpOnly[\r][\n]"
+14:52:31,159 DEBUG main wire:wire:73 -  << "Content-Length: 213[\r][\n]"
+14:52:31,159 DEBUG main wire:wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+14:52:31,159 DEBUG main wire:wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+14:52:31,160 DEBUG main wire:wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+14:52:31,160 DEBUG main wire:wire:73 -  << "[\r][\n]"
+14:52:31,160 DEBUG main DefaultClientConnection:receiveResponseHeader:259 - Receiving response: HTTP/1.1 200 OK
+14:52:31,160 DEBUG main headers:receiveResponseHeader:262 - << HTTP/1.1 200 OK
+14:52:31,160 DEBUG main headers:receiveResponseHeader:265 - << Date: Sat, 20 May 2023 11:52:30 GMT
+14:52:31,160 DEBUG main headers:receiveResponseHeader:265 - << Server: Apache/2.4.38 (Debian)
+14:52:31,160 DEBUG main headers:receiveResponseHeader:265 - << X-Powered-By: PHP/7.2.25
+14:52:31,161 DEBUG main headers:receiveResponseHeader:265 - << Set-Cookie: tr_session=f0bb475a-5433-42ef-ba2d-9e414ba56ddb; HttpOnly
+14:52:31,161 DEBUG main headers:receiveResponseHeader:265 - << Content-Length: 213
+14:52:31,161 DEBUG main headers:receiveResponseHeader:265 - << Keep-Alive: timeout=5, max=100
+14:52:31,161 DEBUG main headers:receiveResponseHeader:265 - << Connection: Keep-Alive
+14:52:31,161 DEBUG main headers:receiveResponseHeader:265 - << Content-Type: application/json; charset=utf-8
+14:52:31,161 DEBUG main DefaultHttpClient:execute:504 - Connection can be kept alive for 5000 MILLISECONDS
+14:52:31,163 DEBUG main RestAssuredHttpBuilder:parseResponse:553 - Parsing response as: application/json; charset=utf-8
+14:52:31,164 DEBUG main RestAssuredHttpBuilder:parseResponse:556 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+14:52:31,164 DEBUG main wire:wire:87 -  << "{"id":149022,"test_id":311265,"status_id":5,"created_by":179,"created_on":1684583550,"assignedto_id":null,"comment":null,"version":null,"elapsed":null,"defects":null,"custom_step_results":null,"attachment_ids":[]}"
+14:52:31,165 DEBUG main BasicClientConnectionManager:releaseConnection:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@238acd0b
+14:52:31,165 DEBUG main BasicClientConnectionManager:releaseConnection:225 - Connection can be kept alive for 5000 MILLISECONDS

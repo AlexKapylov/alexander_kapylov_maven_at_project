@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1afaecb-9c0f-40be-9b75-236000909819" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lo4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/lo4j.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day21/runners/SearchRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/day21/runners/SearchRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/steps/BookingSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/steps/BookingSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/steps/DemoQASteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/steps/DemoQASteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/steps/W3SchoolsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/steps/W3SchoolsSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/BookingRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/BookingRegistrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/BookingTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/BookingTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/DemoQATests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/DemoQATests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/W3SchoolsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/junit4/W3SchoolsTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/testng/BookingTestNGTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/testng/BookingTestNGTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/testng/DemoQATestNGTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/testng/DemoQATestNGTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/testng/W3SchoolsTestNGTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homework/at_project/tests/testng/W3SchoolsTestNGTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/Booking tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/XML Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/XML Test Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.BookingTestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.BookingTestNGTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.DemoQATestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.DemoQATestNGTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.W3SchoolsTestNGTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-homework.at_project.tests.testng.W3SchoolsTestNGTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/XML Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -78,16 +54,68 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SearchRunner">
-    <configuration name="MyHttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.day21.MyHttpClient" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="classwork.day22" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Juint4Runner">
+    <configuration name="Juint4Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day22.Juint4Runner" />
       <module name="UnitTestsDummy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.day21.*" />
+          <option name="PATTERN" value="classwork.day22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day22Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classwork.day22" />
+      <option name="MAIN_CLASS_NAME" value="classwork.day22.Day22Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day22Tests.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classwork.day22" />
+      <option name="MAIN_CLASS_NAME" value="classwork.day22.Day22Tests" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day22Tests.forthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestsDummy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classwork.day22" />
+      <option name="MAIN_CLASS_NAME" value="classwork.day22.Day22Tests" />
+      <option name="METHOD_NAME" value="forthTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,61 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.allUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.day21.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework.day21.tests" />
-      <option name="MAIN_CLASS_NAME" value="homework.day21.tests.SearchTests" />
-      <option name="METHOD_NAME" value="allUsersTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.fullShortNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.day21.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework.day21.tests" />
-      <option name="MAIN_CLASS_NAME" value="homework.day21.tests.SearchTests" />
-      <option name="METHOD_NAME" value="fullShortNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.partShortNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestsDummy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.day21.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework.day21.tests" />
-      <option name="MAIN_CLASS_NAME" value="homework.day21.tests.SearchTests" />
-      <option name="METHOD_NAME" value="partShortNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Juint4Runner" />
+        <item itemvalue="JUnit.Day22Tests" />
+        <item itemvalue="JUnit.Day22Tests.forthTest" />
+        <item itemvalue="JUnit.Day22Tests.firstTest" />
         <item itemvalue="JUnit.SearchRunner" />
-        <item itemvalue="JUnit.SearchTests.allUsersTest" />
-        <item itemvalue="Application.MyHttpClient" />
-        <item itemvalue="JUnit.SearchTests.partShortNameTest" />
-        <item itemvalue="JUnit.SearchTests.fullShortNameTest" />
       </list>
     </recent_temporary>
   </component>
