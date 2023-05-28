@@ -3,6 +3,13 @@
 <suite name="Failed suite [XML Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Booking tests(failed)">
     <classes>
+      <class name="homework.at_project.tests.testng.W3SchoolsTestNGTests">
+        <methods>
+          <include name="beforeTests"/>
+          <include name="tutorialTest"/>
+          <include name="afterTests"/>
+        </methods>
+      </class> <!-- homework.at_project.tests.testng.W3SchoolsTestNGTests -->
       <class name="homework.at_project.tests.testng.DemoQATestNGTests">
         <methods>
           <include name="selectTest"/>
@@ -13,21 +20,14 @@
       <class name="homework.at_project.tests.testng.BookingTestNGTests">
         <methods>
           <include name="currencyTest"/>
-          <include name="afterTests"/>
           <include name="languageTest"/>
+          <include name="afterTests"/>
           <include name="beforeTests"/>
           <include name="hotelAvailabilityTest"/>
           <include name="pricePerNightTest"/>
           <include name="hotelRatingTest"/>
         </methods>
       </class> <!-- homework.at_project.tests.testng.BookingTestNGTests -->
-      <class name="homework.at_project.tests.testng.W3SchoolsTestNGTests">
-        <methods>
-          <include name="beforeTests"/>
-          <include name="tutorialTest"/>
-          <include name="afterTests"/>
-        </methods>
-      </class> <!-- homework.at_project.tests.testng.W3SchoolsTestNGTests -->
     </classes>
   </test> <!-- Booking tests(failed) -->
 </suite> <!-- Failed suite [XML Test Suite] -->

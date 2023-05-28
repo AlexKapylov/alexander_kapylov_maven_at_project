@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="8" passed="1" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-16T20:15:30 MSK" name="XML Test Suite" finished-at="2023-05-16T20:15:56 MSK" duration-ms="25889">
+  <suite started-at="2023-05-20T15:06:56 MSK" name="XML Test Suite" finished-at="2023-05-20T15:07:21 MSK" duration-ms="24940">
     <groups>
     </groups>
-    <test started-at="2023-05-16T20:15:30 MSK" name="Booking tests" finished-at="2023-05-16T20:15:56 MSK" duration-ms="25889">
+    <test started-at="2023-05-20T15:06:56 MSK" name="Booking tests" finished-at="2023-05-20T15:07:21 MSK" duration-ms="24940">
       <class name="homework.at_project.tests.testng.DemoQATestNGTests">
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.DemoQATestNGTests@4351171a]" started-at="2023-05-16T20:15:51 MSK" name="beforeTests" finished-at="2023-05-16T20:15:53 MSK" duration-ms="1439" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.DemoQATestNGTests@127d7908]" started-at="2023-05-20T15:07:17 MSK" name="beforeTests" finished-at="2023-05-20T15:07:18 MSK" duration-ms="1031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="selectTest()[pri:0, instance:homework.at_project.tests.testng.DemoQATestNGTests@4351171a]" started-at="2023-05-16T20:15:53 MSK" name="selectTest" finished-at="2023-05-16T20:15:53 MSK" duration-ms="1" status="FAIL">
+        <test-method signature="selectTest()[pri:0, instance:homework.at_project.tests.testng.DemoQATestNGTests@127d7908]" started-at="2023-05-20T15:07:18 MSK" name="selectTest" finished-at="2023-05-20T15:07:18 MSK" duration-ms="1" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://demoqa.com/select-menu}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://demoqa.com/select-menu}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -67,45 +67,45 @@ at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.ja
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.DemoQATestNGTests@4351171a]" started-at="2023-05-16T20:15:53 MSK" name="afterTests" finished-at="2023-05-16T20:15:54 MSK" duration-ms="702" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.DemoQATestNGTests@127d7908]" started-at="2023-05-20T15:07:18 MSK" name="afterTests" finished-at="2023-05-20T15:07:19 MSK" duration-ms="791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
       </class> <!-- homework.at_project.tests.testng.DemoQATestNGTests -->
       <class name="homework.at_project.tests.testng.BookingTestNGTests">
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:30 MSK" name="beforeTests" finished-at="2023-05-16T20:15:30 MSK" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:06:56 MSK" name="beforeTests" finished-at="2023-05-20T15:06:56 MSK" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="colorsTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:30 MSK" name="colorsTest" finished-at="2023-05-16T20:15:40 MSK" duration-ms="9822" status="PASS">
+        <test-method signature="colorsTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:06:56 MSK" name="colorsTest" finished-at="2023-05-20T15:07:06 MSK" duration-ms="10013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- colorsTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:40 MSK" name="afterTests" finished-at="2023-05-16T20:15:41 MSK" duration-ms="839" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:06 MSK" name="afterTests" finished-at="2023-05-20T15:07:07 MSK" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:41 MSK" name="beforeTests" finished-at="2023-05-16T20:15:42 MSK" duration-ms="1009" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:07 MSK" name="beforeTests" finished-at="2023-05-20T15:07:09 MSK" duration-ms="1479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="currencyTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:42 MSK" name="currencyTest" finished-at="2023-05-16T20:15:42 MSK" duration-ms="6" status="FAIL">
+        <test-method signature="currencyTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:09 MSK" name="currencyTest" finished-at="2023-05-20T15:07:09 MSK" duration-ms="10" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -145,31 +145,31 @@ at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.ja
           <reporter-output>
           </reporter-output>
         </test-method> <!-- currencyTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:42 MSK" name="afterTests" finished-at="2023-05-16T20:15:42 MSK" duration-ms="735" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:09 MSK" name="afterTests" finished-at="2023-05-20T15:07:09 MSK" duration-ms="741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:42 MSK" name="beforeTests" finished-at="2023-05-16T20:15:44 MSK" duration-ms="1457" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:09 MSK" name="beforeTests" finished-at="2023-05-20T15:07:11 MSK" duration-ms="1484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="hotelAvailabilityTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:44 MSK" name="hotelAvailabilityTest" finished-at="2023-05-16T20:15:44 MSK" duration-ms="2" status="FAIL">
+        <test-method signature="hotelAvailabilityTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:11 MSK" name="hotelAvailabilityTest" finished-at="2023-05-20T15:07:11 MSK" duration-ms="1" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -209,31 +209,31 @@ at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.ja
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hotelAvailabilityTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:44 MSK" name="afterTests" finished-at="2023-05-16T20:15:45 MSK" duration-ms="762" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:11 MSK" name="afterTests" finished-at="2023-05-20T15:07:12 MSK" duration-ms="752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:45 MSK" name="beforeTests" finished-at="2023-05-16T20:15:46 MSK" duration-ms="1470" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:12 MSK" name="beforeTests" finished-at="2023-05-20T15:07:13 MSK" duration-ms="1075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="hotelRatingTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:46 MSK" name="hotelRatingTest" finished-at="2023-05-16T20:15:46 MSK" duration-ms="1" status="FAIL">
+        <test-method signature="hotelRatingTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:13 MSK" name="hotelRatingTest" finished-at="2023-05-20T15:07:13 MSK" duration-ms="2" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -273,31 +273,31 @@ at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.ja
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hotelRatingTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:46 MSK" name="afterTests" finished-at="2023-05-16T20:15:47 MSK" duration-ms="790" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:13 MSK" name="afterTests" finished-at="2023-05-20T15:07:13 MSK" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:47 MSK" name="beforeTests" finished-at="2023-05-16T20:15:48 MSK" duration-ms="1462" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:14 MSK" name="beforeTests" finished-at="2023-05-20T15:07:14 MSK" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="languageTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:48 MSK" name="languageTest" finished-at="2023-05-16T20:15:48 MSK" duration-ms="1" status="FAIL">
+        <test-method signature="languageTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:14 MSK" name="languageTest" finished-at="2023-05-20T15:07:14 MSK" duration-ms="1" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -337,31 +337,31 @@ at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.ja
           <reporter-output>
           </reporter-output>
         </test-method> <!-- languageTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:48 MSK" name="afterTests" finished-at="2023-05-16T20:15:49 MSK" duration-ms="763" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:14 MSK" name="afterTests" finished-at="2023-05-20T15:07:15 MSK" duration-ms="733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:49 MSK" name="beforeTests" finished-at="2023-05-16T20:15:51 MSK" duration-ms="1524" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:15 MSK" name="beforeTests" finished-at="2023-05-20T15:07:16 MSK" duration-ms="1062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="pricePerNightTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:51 MSK" name="pricePerNightTest" finished-at="2023-05-16T20:15:51 MSK" duration-ms="1" status="FAIL">
+        <test-method signature="pricePerNightTest()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:16 MSK" name="pricePerNightTest" finished-at="2023-05-20T15:07:16 MSK" duration-ms="1" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://booking.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -401,33 +401,33 @@ at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.ja
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricePerNightTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@6a9287b1]" started-at="2023-05-16T20:15:51 MSK" name="afterTests" finished-at="2023-05-16T20:15:51 MSK" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.BookingTestNGTests@34448e6c]" started-at="2023-05-20T15:07:16 MSK" name="afterTests" finished-at="2023-05-20T15:07:17 MSK" duration-ms="764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
       </class> <!-- homework.at_project.tests.testng.BookingTestNGTests -->
       <class name="homework.at_project.tests.testng.W3SchoolsTestNGTests">
-        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.W3SchoolsTestNGTests@5bb3131b]" started-at="2023-05-16T20:15:54 MSK" name="beforeTests" finished-at="2023-05-16T20:15:55 MSK" duration-ms="1469" status="PASS">
+        <test-method is-config="true" signature="beforeTests()[pri:0, instance:homework.at_project.tests.testng.W3SchoolsTestNGTests@3a60c416]" started-at="2023-05-20T15:07:19 MSK" name="beforeTests" finished-at="2023-05-20T15:07:20 MSK" duration-ms="1529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTests -->
-        <test-method signature="tutorialTest()[pri:0, instance:homework.at_project.tests.testng.W3SchoolsTestNGTests@5bb3131b]" started-at="2023-05-16T20:15:55 MSK" name="tutorialTest" finished-at="2023-05-16T20:15:55 MSK" duration-ms="2" status="FAIL">
+        <test-method signature="tutorialTest()[pri:0, instance:homework.at_project.tests.testng.W3SchoolsTestNGTests@3a60c416]" started-at="2023-05-20T15:07:20 MSK" name="tutorialTest" finished-at="2023-05-20T15:07:20 MSK" duration-ms="1" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://www.w3schools.com/java/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.8.3', revision: 'e5e76298c3'
+Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, get {url=https://www.w3schools.com/java/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61548/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\aleks\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:154)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
@@ -467,7 +467,7 @@ at homework.at_project.runners.TestNGXmlSuiteRunner.main(TestNGXmlSuiteRunner.ja
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tutorialTest -->
-        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.W3SchoolsTestNGTests@5bb3131b]" started-at="2023-05-16T20:15:55 MSK" name="afterTests" finished-at="2023-05-16T20:15:56 MSK" duration-ms="730" status="PASS">
+        <test-method is-config="true" signature="afterTests()[pri:0, instance:homework.at_project.tests.testng.W3SchoolsTestNGTests@3a60c416]" started-at="2023-05-20T15:07:20 MSK" name="afterTests" finished-at="2023-05-20T15:07:21 MSK" duration-ms="794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTests -->
